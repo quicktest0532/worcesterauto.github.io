@@ -8,6 +8,6 @@ github_username:  quicktest0532
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: hacker
 plugins:
   - jekyll-feed
