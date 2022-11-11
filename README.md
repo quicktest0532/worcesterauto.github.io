@@ -2,43 +2,38 @@
   First experimental website on github pages.
   Is this thing working?
 
-<h1><span>CSS</span> Button Animations</h1>
-
-<!-- Flex Container -->
-<div id="container">
-
-  <a id="button-1" class="button" href="#">Let's Go!<img id="arrow-hover" src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-paper-plane-1-120.png?raw=true"/></a>
-
-  <div class="button" id="button-2">
-    <div id="slide"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-3">
-    <div id="circle"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-4">
-    <div id="underline"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-5">
-    <div id="translate"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-6">
-    <div id="spin"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-7">
-    <div id="dub-arrow"><img src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true" alt="" /></div>
-    <a href="#">Let's Go!</a>
-  </div>
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+body {
+  background: #2D3142;
+  font-family: 'Raleway', sans-serif;
+}
 
 
-  <!-- End Container -->
-</div>
+/* Heading */
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 70px 0 0 0;
+  color: #EF8354;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+span {
+  border: 2px solid #4F5D75;
+  padding: 10px;
+}
+
+
+/* Layout Styling */
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 150px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
